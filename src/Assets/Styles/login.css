@@ -1,0 +1,47 @@
+/* login.css */
+
+
+
+
+.stylecontainer {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: left;
+}
+
+.stylecontainer h3 {
+  color: #333;
+}
+
+.stylecontainer label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.stylecontainer input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.stylecontainer button {
+  padding: 10px;
+  background-color: #0f100f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.stylecontainer button + button {
+  margin-left: 10px;
+}
+
